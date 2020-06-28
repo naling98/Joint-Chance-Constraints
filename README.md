@@ -13,7 +13,7 @@ We have considered different instances (20) in each we have taken a different ra
 ### Part 2
 For a particular instance obtained from above simulation, we simulate for different initial points. This ensures we obtain solution irrespective of the starting point in almost all cases.
 
->**cournot_latest_changing.m** - main file.
+>**cournot_latest_changing_x.m** - main file.
 
 >**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
 
