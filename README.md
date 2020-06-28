@@ -18,3 +18,6 @@ For a particular instance obtained from above simulation, we simulate for differ
 >**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
 
 >**plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
+
+
+**opRes.pdf** - General sum games with joint chance constraints, 2018
