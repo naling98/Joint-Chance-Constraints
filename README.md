@@ -4,13 +4,17 @@ We consider a n-player game where each player's strategy set contains some stoch
 ### Part 1
 We have considered different instances (20) in each we have taken a different random matrix (Multivariate Normal Distribution) (Mean and Covariance matrices are different) to ensure existence of Nash Equilibrium in mostly all cases, for similicity we have ignored the changes in other variables which can be incorporated as well. Data obtained from the simulation is also attached. 
 
-**cournot_latest.m** - main file.
-**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
-**plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
+>**cournot_latest.m** - main file.
+
+>**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
+
+>**plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
 
 ### Part 2
 For a particular instance obtained from above simulation, we simulate for different initial points. This ensures we obtain solution irrespective of the starting point in almost all cases.
 
-**cournot_latest_changing.m** - main file.
-**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
-**plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
+>**cournot_latest_changing.m** - main file.
+
+>**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
+
+>**plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
