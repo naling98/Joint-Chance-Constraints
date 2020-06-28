@@ -8,7 +8,7 @@ We have considered different instances (20) in each we have taken a different ra
 **converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
 **plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
 
-## Part 2
+### Part 2
 For a particular instance obtained from above simulation, we simulate for different initial points. This ensures we obtain solution irrespective of the starting point in almost all cases.
 
 **cournot_latest_changing.m** - main file.
