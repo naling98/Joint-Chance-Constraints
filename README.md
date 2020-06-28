@@ -1,0 +1,2 @@
+# Joint-Chance-Constraints
+We consider a n-player game where each player's strategy set contains some stochastic linear constraints. The existence of a Nash Equilibrium under certain conditions has been proved earlier. We further analyse this problem via a constructed example of a Cournot Competition among electricity firms over a Network. We run simulations of an Iterative scheme to find the Nash Equilibrium in this context and describe the results.
