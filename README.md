@@ -4,7 +4,7 @@ We consider a n-player game where each player's strategy set contains some stoch
 ### Part 1
 We have considered different instances (20) in each we have taken a different random matrix (Multivariate Normal Distribution) (Mean and Covariance matrices are different) to ensure existence of Nash Equilibrium in mostly all cases, for similicity we have ignored the changes in other variables which can be incorporated as well. Data obtained from the simulation is also attached. 
 
->**cournot_latest.m** - main file.
+>**cournot_latest.m** - main file. Code is quite general, No variables are hard coded, even chance constraint probability distribution can be modified easily
 
 >**converging.m** - plots the payoffs vs iterations depicting the convergence for all different instances.
 
