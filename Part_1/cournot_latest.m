@@ -55,7 +55,7 @@ for chance = 0:1
 		%-------------------------------------------------------------------------------------%
 		% Production Setup
         
-        beta = 300 * ones(N,M);  %B = 100
+        	beta = 300 * ones(N,M);  %B = 100
 		delta = 1 * ones(N,M); %δ = 1
 
 		c = {0,0}; % Marginal Cost
@@ -66,11 +66,14 @@ for chance = 0:1
 		x_min{1} = zeros(N1+N3, M);
 		x_min{2} = zeros(N2+N3, M);
 
+		bound1 = (beta(N1+1:N1+N3,:)-c{1}(N1+1:N1+N3,:))./delta(N1+1:N1+N3,:);
+        	bound2 = (beta(N1+1:N1+N3,:)-c{2}(1:N3,:))./delta(N1+1:N1+N3,:);
+        
 		x_min{1}(1:N1,:) = (beta(1:N1,:)-c{1}(1:N1,:))/4;
-		x_min{1}(N1+1:N1+N3,:) = (beta(N1+1:N1+N3,:)-c{1}(N1+1:N1+N3,:))/5;
+		x_min{1}(N1+1:N1+N3,:) = (4*bound1 - bound2)/15;
 
 		x_min{2}(N3+1:N2+N3,:) = (beta(N1+N3+1:N,:)-c{2}(N3+1:N2+N3,:))/4;
-		x_min{2}(1:N3,:) = (beta(N1+1:N1+N3,:)-c{2}(1:N3,:))/5;
+		x_min{2}(1:N3,:) = (4*bound2 - bound1)/15;
 
 		x_max = {0,0};
 		x_max{1} = 200 + 10*rand(N1+N3, M);
