@@ -19,6 +19,7 @@ For a particular instance obtained from above simulation, we simulate for differ
 
 >**plot_T_I.m** - plots time taken and total iterations done for all different instances, it also provides some information in output.
 
+\br
 
 **opRes.pdf** - General sum games with joint chance constraints, 2018
 
