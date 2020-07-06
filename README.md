@@ -23,4 +23,4 @@ For a particular instance obtained from above simulation, we simulate for differ
 
 **opRes.pdf** - General sum games with joint chance constraints, 2018
 
-**jcc.pdf** - Joint Chance Constraints - Solving for Nash Equilibrium, 2020
+**jcc.pdf** - Joint Chance Constraints - Solving for Nash Equilibrium Computationally, 2020
